@@ -1,0 +1,10 @@
+{
+  "main": "./contracts/Coin.sol",
+  "deploy": "./build/contracts/Coin.json",
+  "framework": "cfxtruffle-docker",
+  "compilers": {
+    "cfxtruffle": "1.0.3",
+    "solc": "0.6.12"
+  },
+  "npmClient": "npm"
+}
